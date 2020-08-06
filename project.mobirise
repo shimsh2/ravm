@@ -1,0 +1,98 @@
+{
+  "settings": {
+    "name": "AKIVA - RAV MESER",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise4",
+      "title": "Mobirise 4",
+      "styling": {
+        "primaryColor": "#149dcc",
+        "secondaryColor": "#ff3366",
+        "successColor": "#F7ED4A",
+        "infoColor": "#82786E",
+        "warningColor": "#879A9F",
+        "dangerColor": "#B1A374",
+        "mainFont": "Rubik",
+        "display1Font": "Rubik",
+        "display1Size": 4.25,
+        "display2Font": "Rubik",
+        "display2Size": 3,
+        "display5Font": "Rubik",
+        "display5Size": 1.5,
+        "display7Font": "Rubik",
+        "display7Size": 1,
+        "display4Font": "Rubik",
+        "display4Size": 1,
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.12.2",
+    "siteFonts": [],
+    "uniqCompNum": 2,
+    "versionPublish": "4.12.2"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "P": {
+              "color": "#767676"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#0f7699"
+            }
+          },
+          "_name": "header16",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    הצטרפות לרב מסר</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">פלטפורמת השיווק המובילה בישראל<br>ועכשיו במבצע - קבלו חודש נסיון בחינם</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">LEARN MORE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_cid": "s6UGACWchr",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header16-1"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n<link type=\"text/css\" rel=\"stylesheet\" href=\"https://cp.responder.co.il/partners/css/trial.new.new.css\"> <link type=\"text/css\" rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\"> [JS_CODE_0] <!--[if lt IE 10]> [JS_CODE_1] <![endif]--> <div class=\"partnersFormWrapper\"> <div class=\"intro\"> <p>מלאו את הפרטים על פי ההנחיות ולחצו על הכפתור \"צור חשבון התנסות\". המערכת תשלח אליכם מייל לאימות הרשמתכם. לאחר לחיצה על הקישור המיוחד במייל האימות החשבון שלכם ייפתח והחוויה תתחיל!</p> <!--<p>שימו לב! בנוסף למייל האימות יישלח אליכם מסר נוסף – הראשון בסדרה לימודית שתתן לכם טיפים מעשיים ורעיונות לשיווק באמצעות דואר אלקטרוני.</p> <p>כל השדות הם שדות חובה.</p>--> </div> <form class=\"partners-form\" action=\"https://cp.responder.co.il/trial.php\" method=\"post\" onsubmit=\"return responder_validate(this);\" id=\"responder_partner_form\"> <div class=\"form-element\"> <label class=\"title\">שם פרטי:</label> <div class=\"item-cont\"> <input type=\"text\" class=\"large\" name=\"first\" placeholder=\"שם פרטי\" maxlength=\"20\"> <i class=\"fa fa-user\"></i> </div> </div> <div class=\"form-element\"> <label class=\"title\">שם משפחה:</label> <div class=\"item-cont\"> <input type=\"text\" class=\"large\" name=\"last\" placeholder=\"שם משפחה\" maxlength=\"20\"> <i class=\"fa fa-user-o\"></i> </div> </div> <div class=\"form-element\"> <label class=\"title\">מספר טלפון:</label> <div class=\"item-cont\"> <input type=\"text\" class=\"large\" name=\"phone\" placeholder=\"מספר טלפון\" maxlength=\"20\"> <i class=\"fa fa-phone\"></i></div> </div> <div class=\"form-element\"> <label class=\"title\">כתובת דוא\"ל</label> <div class=\"item-cont\"> <input type=\"text\" class=\"large\" name=\"email\" placeholder=\"כתובת דואר אלקטרוני אליה תשלח הודעת אימות\" maxlength=\"100\"> <i class=\"fa fa-envelope\"></i></div> </div> <div class=\"form-element\"> <label class=\"title\">שם משתמש:</label> <div class=\"item-cont\"> <input type=\"text\" class=\"large\" name=\"username\" placeholder=\"שם משתמש: אותיות לטיניות, ספרות וקו תחתון בלבד\" maxlength=\"20\"> <i class=\"fa fa-user-circle\"></i></div> </div> <div class=\"form-element\"> <label class=\"title\">סיסמה:</label> <div class=\"item-cont\"> <input type=\"password\" class=\"large\" name=\"password\" placeholder=\"לפחות 6 תווים, לפחות בינונית בחוזקה\" maxlength=\"20\" onkeyup=\"responder_change_password(this);\"> <i class=\"fa fa-lock\"></i></div> <div id=\"responder_password_notification\"> <img id=\"responder_password_img\" src=\"https://cp.responder.co.il/partners/images/cancel_x.new.png\" alt=\"X\"> <span id=\"responder_password_text\">הסיסמה חלשה מידי</span> </div> </div> <div class=\"form-element\"> <label class=\"title\">אישור סיסמה:</label> <div class=\"item-cont\"> <input class=\"large\" type=\"password\" name=\"password2\" value=\"\" placeholder=\"אישור סיסמה\"> <i class=\"fa fa-lock\"></i></div> </div> <div class=\"submit\"> <input type=\"hidden\" name=\"pid\" value=\"1699\"> <input type=\"hidden\" name=\"encoding\" value=\"\"> <input type=\"submit\" value=\"צור חשבון התנסות\"> </div> </form> </div>\n",
+          "_customCSS": "",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-0",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script type=\"text/javascript\" src=\"https://cp.responder.co.il/partners/js/trial.new.new.js\"></script>",
+            "<script type=\"text/javascript\" src=\"https://cp.responder.co.il/partners/js/ie9fix.js\"></script>"
+          ]
+        }
+      ]
+    }
+  }
+}
